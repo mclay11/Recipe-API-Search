@@ -8,7 +8,7 @@ import requests
 import json
 
 def get(url):
-    headers = {'X-API-KEY' : 'AIzaSyAZdEsuLUpJ7K5pZ_YjsyND8Hh_iqPZxQA'}
+    headers = {'X-API-KEY' : ''}
     url = 'http://www.recipepuppy.com/api/' + url
     data = requests.get(url, headers = headers).json()
     return data['results']
