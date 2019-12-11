@@ -48,7 +48,8 @@ def main():
         print('Recipe Name: ' , response['title'].strip())
         print('All Ingredients: ' , response['ingredients'])
         print('Link to Full Recipe: ' , response['href'])
-
+        
+    print(' ')
     input('Press ENTER to exit')
 
 if __name__ == '__main__':
